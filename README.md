@@ -1,11 +1,11 @@
-# Парсер телеграм каналов/чатов по ключевым словам
-Всё просто, устанавливаете зависимости: ```pip install -r requirements.txt```  
+# Telegram channel/chat parser by keywords
+It's simple, install dependencies: ```pip install -r requirements.txt```.  
 
-Указываете в config.py:
-- информацию о клиенте (api_id, api_hash, session_name),
-- получателя (кому будут приходить все эти сообщения),
-- названия каналов (откуда брать сообщения),
-- ключевые слова (слова которые должно содержать сообщение). 
+Specify in config.py:
+- client information (api_id, api_hash, session_name),
+- recipient (to whom all these messages will be sent),
+- channel names (where the messages will come from),
+- keywords (words the message should contain). 
 
-Все готово к работе.  
-Теперь запуск: ```python bot.py```
+Everything is ready to work.  
+Now run: ```python bot.py``.
